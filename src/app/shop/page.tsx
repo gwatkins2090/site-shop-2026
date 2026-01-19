@@ -11,9 +11,11 @@ import { Card, CardContent } from '@/components/ui/card';
 import GalleryFilters from '@/components/gallery/gallery-filters';
 import { sampleArtworks } from '@/lib/sample-data';
 import { formatPrice, DEFAULT_BLUR_DATA_URL } from '@/lib/utils';
-import { GalleryFilters as GalleryFiltersType } from '@/types';
+import { GalleryFilters as GalleryFiltersType, Artwork } from '@/types';
+import { useCart } from '@/contexts/cart-context';
 
 const ShopPage = () => {
+  const { addToCart } = useCart();
   const [filters, setFilters] = useState<GalleryFiltersType>({
     category: 'All',
     medium: 'All',
@@ -72,8 +74,10 @@ const ShopPage = () => {
     setFilters(prev => ({ ...prev, [key]: value }));
   };
 
-  const handleAddToCart = (artworkId: string) => {
-    // In a real app, this would update cart state/context
+  const handleAddToCart = (artwork: Artwork) => {
+    addToCart(artwork);
+    // Optional: Show a toast notification or visual feedback
+    alert(`Added "${artwork.title}" to cart!`);
   };
 
   return (
@@ -153,7 +157,7 @@ const ShopPage = () => {
                           variant="gallery"
                           size="sm"
                           className="w-full"
-                          onClick={() => handleAddToCart(artwork.id)}
+                          onClick={() => handleAddToCart(artwork)}
                         >
                           <ShoppingBag className="h-4 w-4 mr-2" />
                           Add to Cart
@@ -190,7 +194,7 @@ const ShopPage = () => {
                           <Button
                             variant="gallery-outline"
                             size="sm"
-                            onClick={() => handleAddToCart(artwork.id)}
+                            onClick={() => handleAddToCart(artwork)}
                           >
                             <ShoppingBag className="h-4 w-4 mr-1" />
                             Add to Cart

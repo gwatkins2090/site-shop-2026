@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
+import { CartProvider } from "@/contexts/cart-context";
 import "./globals.css";
 
 const inter = Inter({
@@ -59,11 +60,13 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: `(function(){try{var s=localStorage.getItem('theme');var m=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;var d=(s==='dark')||(!s&&m);var e=document.documentElement;d?e.classList.add('dark'):e.classList.remove('dark');}catch(e){}})();` }} />
       </head>
       <body className="antialiased">
-        <Header />
-        <main className="min-h-screen">
-          {children}
-        </main>
-        <Footer />
+        <CartProvider>
+          <Header />
+          <main className="min-h-screen">
+            {children}
+          </main>
+          <Footer />
+        </CartProvider>
       </body>
     </html>
   );

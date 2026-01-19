@@ -16,6 +16,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { useMobile } from '@/hooks/use-mobile';
 import ThemeToggle from '@/components/layout/theme-toggle';
+import { CartDrawer } from '@/components/shop/cart-drawer';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -97,6 +98,9 @@ const Header = () => {
 
         {/* Right Side Actions */}
         <div className="flex items-center space-x-2 md:space-x-4">
+          {/* Cart */}
+          <CartDrawer />
+
           {/* Theme Toggle */}
           <ThemeToggle />
 

@@ -4,20 +4,27 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Moon, Sun } from "lucide-react";
 
-function getInitialTheme(): "light" | "dark" {
-  if (typeof window === "undefined") return "light";
-  try {
-    const stored = localStorage.getItem("theme");
-    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-    if (stored === "dark" || (!stored && prefersDark)) return "dark";
-  } catch {}
-  return "light";
-}
-
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<"light" | "dark">(getInitialTheme);
+  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [mounted, setMounted] = useState(false);
+
+  // Set mounted to true after initial render
+  useEffect(() => {
+    setMounted(true);
+
+    // Initialize theme from localStorage or system preference
+    try {
+      const stored = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      if (stored === "dark" || (!stored && prefersDark)) {
+        setTheme("dark");
+      }
+    } catch {}
+  }, []);
 
   useEffect(() => {
+    if (!mounted) return;
+
     try {
       const root = document.documentElement;
       if (theme === "dark") {
@@ -28,7 +35,7 @@ export default function ThemeToggle() {
         localStorage.setItem("theme", "light");
       }
     } catch {}
-  }, [theme]);
+  }, [theme, mounted]);
 
   const toggle = () => setTheme((t) => (t === "dark" ? "light" : "dark"));
 
@@ -40,12 +47,15 @@ export default function ThemeToggle() {
       title={theme === "dark" ? "Switch to light theme" : "Switch to dark theme"}
       onClick={toggle}
       className="focus-ring"
+      suppressHydrationWarning
     >
-      {theme === "dark" ? (
-        <Sun className="h-5 w-5" />
-      ) : (
-        <Moon className="h-5 w-5" />
-      )}
+      <span suppressHydrationWarning>
+        {theme === "dark" ? (
+          <Sun className="h-5 w-5" />
+        ) : (
+          <Moon className="h-5 w-5" />
+        )}
+      </span>
     </Button>
   );
 }
