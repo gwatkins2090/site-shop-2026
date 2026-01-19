@@ -125,14 +125,15 @@ const ContactPage = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Interested in commissioning a custom piece? I&apos;d love to work with you to create
-                    something unique that reflects your vision and complements your space.
+                    Looking for something truly one-of-a-kind? I welcome custom commissions across all
+                    my mediums—from personalized enamel jewelry and hand-tooled leather pieces to
+                    custom pottery and fiber art. Let&apos;s create something meaningful together.
                   </p>
                   <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>• Custom paintings and mixed media works</li>
-                    <li>• Various sizes and formats available</li>
-                    <li>• Collaborative design process</li>
-                    <li>• Timeline typically 4-8 weeks</li>
+                    <li>• Custom enamels, ceramics, leather goods, and textile pieces</li>
+                    <li>• Functional art and decorative objects in all sizes</li>
+                    <li>• Personal consultation to understand your vision</li>
+                    <li>• Typical timeline of 4-12 weeks depending on medium</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -212,6 +213,7 @@ const ContactPage = () => {
                           <option value="general">General Inquiry</option>
                           <option value="purchase">Purchase Inquiry</option>
                           <option value="commission">Commission Request</option>
+                          <option value="workshop">Workshop Information</option>
                           <option value="exhibition">Exhibition Opportunity</option>
                           <option value="press">Press/Media</option>
                         </select>

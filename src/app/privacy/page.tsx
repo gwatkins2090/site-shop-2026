@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Jennifer Watkins Art",
-  description: "Data collection, cookies, email marketing consent, third-party integrations, user rights, and GDPR compliance for this e-commerce site.",
+  title: "Privacy Policy | Jennifer Watkins - Mixed Media Artist",
+  description: "Data collection, cookies, email marketing consent, third-party integrations, user rights, and GDPR compliance for The Conchetta Studio.",
 };
 
 export default function PrivacyPage() {

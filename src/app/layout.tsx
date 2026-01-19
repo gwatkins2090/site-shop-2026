@@ -18,23 +18,23 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Jennifer Watkins - Contemporary Artist",
-  description: "Contemporary artist Jennifer Watkins creates ethereal paintings and mixed media works exploring themes of nature, emotion, and human experience.",
-  keywords: ["contemporary art", "paintings", "mixed media", "artist", "gallery", "fine art"],
+  title: "Jennifer Watkins - Mixed Media Artist | New Orleans",
+  description: "New Orleans mixed media artist Jennifer Watkins creates handcrafted enamels, ceramics, leather goods, paintings, and textile art. Shop original works and commissions.",
+  keywords: ["mixed media artist", "enamel jewelry", "ceramics", "pottery", "leatherwork", "paintings", "textile art", "New Orleans artist", "handcrafted art", "fine craft"],
   authors: [{ name: "Jennifer Watkins" }],
   creator: "Jennifer Watkins",
   openGraph: {
-    title: "Jennifer Watkins - Contemporary Artist",
-    description: "Contemporary artist Jennifer Watkins creates ethereal paintings and mixed media works exploring themes of nature, emotion, and human experience.",
+    title: "Jennifer Watkins - Mixed Media Artist | New Orleans",
+    description: "New Orleans mixed media artist Jennifer Watkins creates handcrafted enamels, ceramics, leather goods, paintings, and textile art. Shop original works and commissions.",
     type: "website",
     locale: "en_US",
-    siteName: "Jennifer Watkins Art",
+    siteName: "The Conchetta Studio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jennifer Watkins - Contemporary Artist",
-    description: "Contemporary artist Jennifer Watkins creates ethereal paintings and mixed media works exploring themes of nature, emotion, and human experience.",
-    creator: "@jwatkinsart",
+    title: "Jennifer Watkins - Mixed Media Artist | New Orleans",
+    description: "New Orleans mixed media artist Jennifer Watkins creates handcrafted enamels, ceramics, leather goods, paintings, and textile art. Shop original works and commissions.",
+    creator: "@theconchetta",
   },
   robots: {
     index: true,

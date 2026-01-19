@@ -10,26 +10,26 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-serif text-lg font-semibold">Jennifer Watkins</h3>
             <p className="text-sm text-muted-foreground">
-              Contemporary artist exploring the intersection of traditional techniques and modern expression.
+              Mixed media artist crafting enamels, ceramics, leather goods, paintings, and textile works from the heart of New Orleans.
             </p>
             {/* Social Media Links */}
             <div className="flex space-x-4">
-              <Link 
-                href="https://instagram.com/jenniferwatkinsart" 
+              <Link
+                href="https://instagram.com/theconchetta"
                 className="text-muted-foreground hover:text-gallery-gold transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link 
-                href="https://facebook.com/jenniferwatkinsart" 
+              <Link
+                href="https://facebook.com/theconchetta"
                 className="text-muted-foreground hover:text-gallery-gold transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link 
-                href="https://twitter.com/jwatkinsart" 
+              <Link
+                href="https://twitter.com/theconchetta"
                 className="text-muted-foreground hover:text-gallery-gold transition-colors"
                 aria-label="Twitter"
               >
@@ -82,15 +82,15 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>hello@jenniferwatkins.art</span>
+                <span>jen@theconchetta.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>(985) 302-XXXX</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span>New York, NY</span>
+                <span>New Orleans, LA</span>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          © 2024 Jennifer Watkins. All rights reserved.
+          © 2026 Jennifer Watkins. All rights reserved.
         </div>
       </div>
     </footer>

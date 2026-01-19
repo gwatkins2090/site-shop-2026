@@ -167,11 +167,12 @@ const AboutPage = () => {
       <section className="py-16 bg-gallery-gold/10">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-light mb-6">
-            Interested in My Work?
+            Let&apos;s Create Something Together
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Whether you&apos;re interested in purchasing a piece, commissioning custom artwork,
-            or simply want to learn more about my artistic process, I&apos;d love to hear from you.
+            Whether you&apos;re looking to commission a custom piece, join a workshop,
+            or simply want to chat about craft over coffee—I&apos;d love to connect.
+            The best creations come from collaboration.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="gallery" size="lg" asChild>

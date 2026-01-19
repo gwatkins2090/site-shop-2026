@@ -7,11 +7,11 @@ Thank you for using this artist portfolio template! Please fill out the informat
 ## 1. ARTIST INFORMATION (About Page & Footer)
 
 ### Basic Information
-- **Full Name/Artist Name:** ____________________
+- **Full Name/Artist Name:** Jennifer Watkins
   - *Currently: "Jennifer Watkins"*
   - *Used in: Header, Footer, About page, Homepage hero*
 
-- **Professional Title/Description:** ____________________
+- **Professional Title/Description:** Mixed Media Artist
   - *Currently: "Contemporary Artist"*
   - *Example: Contemporary Painter, Mixed Media Artist, Fine Art Photographer, etc.*
 
@@ -19,92 +19,90 @@ Thank you for using this artist portfolio template! Please fill out the informat
   - *Currently: "Jennifer Watkins is a contemporary artist whose work explores the intersection of traditional techniques and modern expression. With over 15 years of experience, her paintings have been featured in galleries across the United States and Europe."*
   - *This appears on your About page under your photo*
   ```
-  _______________________________________________
-  _______________________________________________
-  _______________________________________________
-  _______________________________________________
+  Jennifer Watkins is a New Orleans-based mixed media artist whose work spans an extraordinary range of traditional crafts and contemporary expression. From the ancient art of enameling on copper to hand-stitched textile sculptures, her pieces celebrate the beauty found in mastering diverse materials and techniques.
+
+  Rooted in the rich cultural traditions of Louisiana, Jennifer draws inspiration from the vibrant colors of the French Quarter, the organic textures of the bayou, and the enduring spirit of craftsmanship passed down through generations. Her studio practice moves fluidly between the potter's wheel, the leather bench, the kiln, and the canvas—each medium informing the others.
+
+  With work held in private collections across the Gulf South and beyond, Jennifer is known for creating functional art objects and decorative pieces that bring warmth, texture, and soul into everyday spaces. She teaches workshops in enameling and ceramics, sharing her passion for handmade artistry with the next generation of makers.
   ```
 
 - **Artist Statement (2-3 sentences, reflective/philosophical):**
   - *Currently: "My art is a dialogue between the seen and unseen, the tangible and the imagined. Through layers of paint and mixed media, I seek to capture the ephemeral moments that define our human experience."*
   - *This appears on your About page as a blockquote*
   ```
-  _______________________________________________
-  _______________________________________________
-  _______________________________________________
+  I believe the hand that makes something leaves a piece of the soul within it. Whether I'm firing enamel onto copper, shaping clay on the wheel, or stitching leather by hand, I'm drawn to the alchemy of transforming raw materials into objects that carry meaning and purpose. My work is an invitation to slow down, to appreciate the handmade, and to reconnect with the timeless traditions of craft.
   ```
 
 - **Homepage Artist Statement (1-2 sentences):**
   - *Currently: "My work is a continuous exploration of color, form, and emotion. Each piece represents a moment in time, a feeling captured and transformed into visual poetry."*
   - *This appears on the homepage in the Artist Statement section*
   ```
-  _______________________________________________
-  _______________________________________________
+  Every piece I create is a conversation between fire, earth, and hand. I work across mediums—enamel, clay, leather, paint, and fiber—to craft objects that honor tradition while speaking to the present.
   ```
 
 - **Short About Description (1 sentence):**
   - *Currently: "Jennifer Watkins is a contemporary artist based in New York, known for her ethereal landscapes and abstract compositions that bridge the gap between traditional and contemporary art."*
   - *This appears on the homepage Artist Statement section*
   ```
-  _______________________________________________
+  Jennifer Watkins is a New Orleans-based mixed media artist working in enameling, ceramics, leatherwork, painting, and textile arts, creating handcrafted pieces that celebrate the beauty of traditional craftsmanship.
   ```
 
 - **Footer Bio/Description (1 sentence):**
   - *Currently: "Contemporary artist exploring the intersection of traditional techniques and modern expression."*
   ```
-  _______________________________________________
+  Mixed media artist crafting enamels, ceramics, leather goods, paintings, and textile works from the heart of New Orleans.
   ```
 
 ### Contact Information
-- **Email Address:** ____________________
+- **Email Address:** jen@theconchetta.com
   - *Currently: hello@jenniferwatkins.art*
   - *Used in: About page, Contact page, Footer*
 
-- **Phone Number:** ____________________
+- **Phone Number:** 985-302-XXXX
   - *Currently: +1 (555) 123-4567*
   - *Used in: About page, Contact page, Footer*
   - *Optional: Leave blank if you don't want to display*
 
-- **Location (City, State/Country):** ____________________
+- **Location (City, State/Country):** New Orleans, LA
   - *Currently: New York, NY*
   - *Used in: About page, Contact page, Footer*
 
-- **Personal Website (if different from this portfolio):** ____________________
+- **Personal Website (if different from this portfolio):** theconchetta.com
   - *Currently: https://jenniferwatkins.art*
   - *Optional: Leave blank if not applicable*
 
 ### Social Media
-- **Instagram Handle:** ____________________
+- **Instagram Handle:** @theconchetta
   - *Currently: @jenniferwatkinsart*
 
-- **Instagram Full URL:** ____________________
+- **Instagram Full URL:** https://instagram.com/theconchetta
   - *Currently: https://instagram.com/jenniferwatkinsart*
 
-- **Facebook Page Name:** ____________________
+- **Facebook Page Name:** The Conchetta Studio
   - *Currently: Jennifer Watkins Art*
 
-- **Facebook Full URL:** ____________________
+- **Facebook Full URL:** https://facebook.com/theconchetta
   - *Currently: https://facebook.com/jenniferwatkinsart*
 
-- **Twitter/X Handle:** ____________________
+- **Twitter/X Handle:** @theconchetta
   - *Currently: @jwatkinsart*
 
-- **Twitter/X Full URL:** ____________________
+- **Twitter/X Full URL:** https://twitter.com/theconchetta
   - *Currently: https://twitter.com/jwatkinsart*
 
 ### SEO & Website Settings
-- **SEO Title (for search engines):** ____________________
-  - *Currently: Jennifer Watkins - Contemporary Artist*
+- **SEO Title (for search engines):** Jennifer Watkins - Mixed Media Artist | New Orleans
+  - *Currently: Jennifer Watkins - Mixed Media Artist*
   - *Keep it under 60 characters for best results*
 
-- **SEO Description (for search engines):** ____________________
+- **SEO Description (for search engines):**
   - *Currently: Contemporary artist Jennifer Watkins creates ethereal paintings and mixed media works exploring themes of nature, emotion, and human experience.*
   - *Keep it under 160 characters for best results*
   ```
-  _______________________________________________
+  New Orleans mixed media artist Jennifer Watkins creates handcrafted enamels, ceramics, leather goods, paintings, and textile art. Shop original works and commissions.
   ```
 
-- **Website URL:** ____________________
+- **Website URL:** https://theconchetta.com
   - *Currently: https://jenniferwatkins.art*
   - *Your actual domain name*
 
@@ -112,24 +110,23 @@ Thank you for using this artist portfolio template! Please fill out the informat
 
 ## 2. HOMEPAGE HERO SECTION
 
-- **Hero Title (Your Name):** ____________________
+- **Hero Title (Your Name):** Jennifer Watkins
   - *Currently: "Jennifer Watkins"*
 
-- **Hero Subtitle:** ____________________
+- **Hero Subtitle:** Mixed Media Artist
   - *Currently: "Contemporary Artist"*
 
 - **Hero Description (1-2 sentences about your work):**
   - *Currently: "Exploring the intersection of traditional techniques and modern expression through painting and mixed media."*
   ```
-  _______________________________________________
-  _______________________________________________
+  Handcrafted enamels, ceramics, leather goods, paintings, and textile art—created with intention in the heart of New Orleans.
   ```
 
-- **Primary Button Text:** ____________________
+- **Primary Button Text:** Explore the Studio
   - *Currently: "View Portfolio"*
   - *Example alternatives: Explore Gallery, See My Work, Browse Artworks*
 
-- **Secondary Button Text:** ____________________
+- **Secondary Button Text:** Meet the Maker
   - *Currently: "About the Artist"*
   - *Example alternatives: Learn More, My Story, Meet the Artist*
 
@@ -140,8 +137,7 @@ Thank you for using this artist portfolio template! Please fill out the informat
 - **Contact Page Welcome Message:**
   - *Currently: "Interested in commissioning a piece or learning more about available works? I would love to hear from you."*
   ```
-  _______________________________________________
-  _______________________________________________
+  Whether you're looking for a custom piece, interested in workshop offerings, or simply want to connect about the craft—I'd love to hear from you. Every conversation starts with a shared appreciation for the handmade.
   ```
 
 ### Commission Information (shown in sidebar)
@@ -150,19 +146,18 @@ You can customize the commission details shown on the contact page:
 - **Custom commission text (or keep default):**
   - *Currently: "Interested in commissioning a custom piece? I'd love to work with you to create something unique that reflects your vision and complements your space."*
   ```
-  _______________________________________________
-  _______________________________________________
+  Looking for something truly one-of-a-kind? I welcome custom commissions across all my mediums—from personalized enamel jewelry and hand-tooled leather pieces to custom pottery and fiber art. Let's create something meaningful together.
   ```
 
 - **Commission bullet points (4 items):**
   1. *Currently: "Custom paintings and mixed media works"*
-     - Your option: ____________________
+     - Your option: Custom enamels, ceramics, leather goods, and textile pieces
   2. *Currently: "Various sizes and formats available"*
-     - Your option: ____________________
+     - Your option: Functional art and decorative objects in all sizes
   3. *Currently: "Collaborative design process"*
-     - Your option: ____________________
+     - Your option: Personal consultation to understand your vision
   4. *Currently: "Timeline typically 4-8 weeks"*
-     - Your option: ____________________
+     - Your option: Typical timeline of 4-12 weeks depending on medium
 
 ---
 
@@ -178,7 +173,7 @@ Please provide a high-quality photo of yourself for the About page and Homepage 
 - **Alt text for your photo (for accessibility):**
   - *Currently: "Jennifer Watkins"*
   ```
-  _______________________________________________
+  Jennifer Watkins in her New Orleans studio
   ```
 
 ---
@@ -197,26 +192,21 @@ Please provide a high-quality photo of yourself for the About page and Homepage 
 
 Please provide information for **each artwork** you want to display. You can have as many or as few as you'd like. Currently there are 6 sample artworks. For each artwork, fill out the following:
 
-### ARTWORK #1
-- **Title:** ____________________
-- **Medium:** ____________________
-  - *Example: Oil on Canvas, Acrylic on Canvas, Watercolor, Mixed Media, etc.*
-- **Year Created:** ____________________
-- **Dimensions:** ____________________
-  - *Example: 36" x 48", 91cm x 122cm*
-- **Price (in USD):** $____________________
-  - *Leave blank if not for sale*
-- **Is this available for purchase?** [ ] Yes  [ ] No
-- **Is this a featured artwork?** [ ] Yes  [ ] No
+### ARTWORK #1 - Enamel
+- **Title:** Bayou Sunrise Pendant
+- **Medium:** Cloisonné enamel on copper with sterling silver
+- **Year Created:** 2025
+- **Dimensions:** 2" x 1.5"
+- **Price (in USD):** $285
+- **Is this available for purchase?** [x] Yes  [ ] No
+- **Is this a featured artwork?** [x] Yes  [ ] No
   - *Featured artworks appear on the homepage and in the hero carousel*
-- **Category:** ____________________
+- **Category:** Enamels
   - *Example: Paintings, Mixed Media, Watercolors, Drawings, Sculptures, Photography, etc.*
   - *Used for filtering on Portfolio and Shop pages*
 - **Description (2-3 sentences about the piece):**
   ```
-  _______________________________________________
-  _______________________________________________
-  _______________________________________________
+  Inspired by the golden light breaking over Louisiana's wetlands, this cloisonné pendant captures the warmth and mystery of a bayou morning. Fine silver wire forms the delicate landscape, filled with layers of vitreous enamel fired multiple times to achieve luminous depth. Each piece is unique—no two sunrises are ever the same.
   ```
 - **Image file(s):**
   - Main image: ____________________
@@ -224,39 +214,86 @@ Please provide information for **each artwork** you want to display. You can hav
   - *Recommended: High resolution, minimum 1200x1200 pixels*
   - *Currently sample images are in: /public/images/artworks/*
 
-### ARTWORK #2
-- **Title:** ____________________
-- **Medium:** ____________________
-- **Year Created:** ____________________
-- **Dimensions:** ____________________
-- **Price (in USD):** $____________________
-- **Is this available for purchase?** [ ] Yes  [ ] No
-- **Is this a featured artwork?** [ ] Yes  [ ] No
-- **Category:** ____________________
+### ARTWORK #2 - Ceramics
+- **Title:** French Quarter Vessel
+- **Medium:** Stoneware with iron oxide glaze
+- **Year Created:** 2025
+- **Dimensions:** 10" H x 6" W
+- **Price (in USD):** $175
+- **Is this available for purchase?** [x] Yes  [ ] No
+- **Is this a featured artwork?** [x] Yes  [ ] No
+- **Category:** Ceramics
 - **Description:**
   ```
-  _______________________________________________
-  _______________________________________________
-  _______________________________________________
+  Wheel-thrown stoneware inspired by the wrought iron balconies of the French Quarter. The iron oxide glaze creates rich, earthy tones that shift from rust to deep brown depending on the light. Functional as a vase or beautiful as a standalone sculptural piece.
   ```
 - **Image file(s):**
   - Main image: ____________________
   - Additional views: ____________________
 
-### ARTWORK #3
-- **Title:** ____________________
-- **Medium:** ____________________
-- **Year Created:** ____________________
-- **Dimensions:** ____________________
-- **Price (in USD):** $____________________
-- **Is this available for purchase?** [ ] Yes  [ ] No
-- **Is this a featured artwork?** [ ] Yes  [ ] No
-- **Category:** ____________________
+### ARTWORK #3 - Leather
+- **Title:** Crescent City Journal Cover
+- **Medium:** Hand-tooled vegetable-tanned leather
+- **Year Created:** 2025
+- **Dimensions:** 6" x 8" (fits A5 notebook)
+- **Price (in USD):** $145
+- **Is this available for purchase?** [x] Yes  [ ] No
+- **Is this a featured artwork?** [ ] Yes  [x] No
+- **Category:** Leatherwork
 - **Description:**
   ```
-  _______________________________________________
-  _______________________________________________
-  _______________________________________________
+  Hand-carved floral motifs reminiscent of New Orleans' lush gardens adorn this refillable journal cover. The vegetable-tanned leather will develop a rich patina over years of use, becoming more beautiful with age. Includes snap closure and pen loop.
+  ```
+- **Image file(s):**
+  - Main image: ____________________
+  - Additional views: ____________________
+
+### ARTWORK #4 - Painting
+- **Title:** Jazz & Magnolias
+- **Medium:** Acrylic and gold leaf on canvas
+- **Year Created:** 2024
+- **Dimensions:** 24" x 36"
+- **Price (in USD):** $850
+- **Is this available for purchase?** [x] Yes  [ ] No
+- **Is this a featured artwork?** [x] Yes  [ ] No
+- **Category:** Paintings
+- **Description:**
+  ```
+  An abstract celebration of New Orleans' spirit—the movement of music meeting the stillness of Southern gardens. Layers of deep greens and warm golds build depth, while genuine gold leaf catches the light like notes hanging in humid air. This piece brings life to any room.
+  ```
+- **Image file(s):**
+  - Main image: ____________________
+  - Additional views: ____________________
+
+### ARTWORK #5 - Textile/Sewing
+- **Title:** Heirloom Table Runner
+- **Medium:** Hand-dyed linen with embroidered details
+- **Year Created:** 2025
+- **Dimensions:** 14" x 72"
+- **Price (in USD):** $225
+- **Is this available for purchase?** [x] Yes  [ ] No
+- **Is this a featured artwork?** [ ] Yes  [x] No
+- **Category:** Textiles
+- **Description:**
+  ```
+  Natural linen hand-dyed with indigo and walnut creates a gradient reminiscent of twilight over the Mississippi. Delicate hand-embroidered botanical motifs trace the edges. Machine washable, made to be used and loved for generations.
+  ```
+- **Image file(s):**
+  - Main image: ____________________
+  - Additional views: ____________________
+
+### ARTWORK #6 - Enamel
+- **Title:** Garden District Cuff
+- **Medium:** Champlevé enamel on copper with brass
+- **Year Created:** 2024
+- **Dimensions:** 1.5" W, adjustable
+- **Price (in USD):** $320
+- **Is this available for purchase?** [x] Yes  [ ] No
+- **Is this a featured artwork?** [x] Yes  [ ] No
+- **Category:** Enamels
+- **Description:**
+  ```
+  The ornate ironwork of Garden District gates inspired this bold cuff bracelet. Champlevé technique creates recessed cells filled with jewel-toned vitreous enamel, fired at over 1400°F to create glass-like permanence. A wearable piece of New Orleans history.
   ```
 - **Image file(s):**
   - Main image: ____________________
@@ -272,48 +309,45 @@ Please provide information for **each artwork** you want to display. You can hav
 Please provide information about your exhibitions (solo or group shows). Currently there are 3 sample exhibitions.
 
 ### EXHIBITION #1
-- **Exhibition Title:** ____________________
-- **Venue/Gallery Name:** ____________________
-- **Location (City, State/Country):** ____________________
-- **Start Date:** ____________________
+- **Exhibition Title:** Fire & Form: Works in Enamel and Clay
+- **Venue/Gallery Name:** The Ogden Museum of Southern Art
+- **Location (City, State/Country):** New Orleans, LA
+- **Start Date:** 2025-09-15
   - *Format: YYYY-MM-DD (e.g., 2024-03-15)*
-- **End Date:** ____________________
+- **End Date:** 2025-11-30
   - *Format: YYYY-MM-DD*
-- **Type:** [ ] Solo  [ ] Group
+- **Type:** [x] Solo  [ ] Group
 - **Description (1-2 sentences):**
   ```
-  _______________________________________________
-  _______________________________________________
+  A solo exhibition exploring the relationship between vitreous enamel and ceramic glazes—two ancient arts united by fire. Featuring over 30 works created specifically for this show.
   ```
-- **Is this a featured exhibition?** [ ] Yes  [ ] No
+- **Is this a featured exhibition?** [x] Yes  [ ] No
 
 ### EXHIBITION #2
-- **Exhibition Title:** ____________________
-- **Venue/Gallery Name:** ____________________
-- **Location:** ____________________
-- **Start Date:** ____________________
-- **End Date:** ____________________
-- **Type:** [ ] Solo  [ ] Group
+- **Exhibition Title:** Louisiana Craft Guild Annual Showcase
+- **Venue/Gallery Name:** New Orleans Jazz Museum
+- **Location:** New Orleans, LA
+- **Start Date:** 2024-05-01
+- **End Date:** 2024-06-15
+- **Type:** [ ] Solo  [x] Group
 - **Description:**
   ```
-  _______________________________________________
-  _______________________________________________
+  Juried exhibition featuring the finest craft artists from across Louisiana. Selected works included a ceramic vessel collection and hand-tooled leather accessories.
   ```
-- **Is this a featured exhibition?** [ ] Yes  [ ] No
+- **Is this a featured exhibition?** [ ] Yes  [x] No
 
 ### EXHIBITION #3
-- **Exhibition Title:** ____________________
-- **Venue/Gallery Name:** ____________________
-- **Location:** ____________________
-- **Start Date:** ____________________
-- **End Date:** ____________________
-- **Type:** [ ] Solo  [ ] Group
+- **Exhibition Title:** Makers Market at the Ace Hotel
+- **Venue/Gallery Name:** Ace Hotel New Orleans
+- **Location:** New Orleans, LA
+- **Start Date:** 2024-12-07
+- **End Date:** 2024-12-08
+- **Type:** [ ] Solo  [x] Group
 - **Description:**
   ```
-  _______________________________________________
-  _______________________________________________
+  A curated marketplace featuring local artisans and makers. Showcased enameled jewelry, ceramic pieces, and hand-sewn textile works alongside 40 fellow artists.
   ```
-- **Is this a featured exhibition?** [ ] Yes  [ ] No
+- **Is this a featured exhibition?** [ ] Yes  [x] No
 
 ### Additional Exhibitions
 *Copy the above format for additional exhibitions. Please number each one.*
@@ -325,33 +359,30 @@ Please provide information about your exhibitions (solo or group shows). Current
 Please provide information about awards, grants, residencies, or recognition you've received. Currently there are 3 sample awards.
 
 ### AWARD #1
-- **Award Title:** ____________________
-- **Organization/Institution:** ____________________
-- **Year Received:** ____________________
+- **Award Title:** Best in Show - Enamelwork
+- **Organization/Institution:** Louisiana Crafts Guild
+- **Year Received:** 2024
 - **Description (optional, 1-2 sentences):**
   ```
-  _______________________________________________
-  _______________________________________________
+  Awarded for the "Bayou Series" collection of cloisonné pendants at the annual juried exhibition.
   ```
 
 ### AWARD #2
-- **Award Title:** ____________________
-- **Organization/Institution:** ____________________
-- **Year Received:** ____________________
+- **Award Title:** Artist Residency
+- **Organization/Institution:** Penland School of Craft
+- **Year Received:** 2023
 - **Description:**
   ```
-  _______________________________________________
-  _______________________________________________
+  Two-week summer residency focused on experimental enameling techniques with visiting master artists.
   ```
 
 ### AWARD #3
-- **Award Title:** ____________________
-- **Organization/Institution:** ____________________
-- **Year Received:** ____________________
+- **Award Title:** Emerging Artist Grant
+- **Organization/Institution:** Arts Council of New Orleans
+- **Year Received:** 2022
 - **Description:**
   ```
-  _______________________________________________
-  _______________________________________________
+  Grant supporting the purchase of a larger kiln to expand ceramic and enamel production capacity.
   ```
 
 ### Additional Awards
@@ -366,8 +397,7 @@ The portfolio page header text can be customized:
 - **Portfolio Page Description (appears under "Portfolio" heading):**
   - *Currently: "Explore a comprehensive collection of artworks spanning various mediums and themes, each piece representing a unique exploration of color, form, and emotion."*
   ```
-  _______________________________________________
-  _______________________________________________
+  From the kiln to the canvas, explore a collection of handcrafted works in enamel, ceramics, leather, paint, and fiber. Each piece is made with intention, honoring traditional techniques while embracing contemporary design.
   ```
 
 ---
@@ -379,8 +409,7 @@ The shop page displays only artworks marked as "available" with prices. You can 
 - **Shop Page Description (appears under "Shop Artworks" heading):**
   - *Currently: "Discover and purchase original artworks. Each piece is carefully crafted and ready to enhance your space with unique artistic expression."*
   ```
-  _______________________________________________
-  _______________________________________________
+  Every piece in the shop is handmade in my New Orleans studio—no mass production, no shortcuts. When you purchase original work, you're bringing home something with a story, made by hands that care about craft.
   ```
 
 ---
@@ -389,22 +418,21 @@ The shop page displays only artworks marked as "available" with prices. You can 
 
 At the bottom of the About page, there's a section asking visitors to take action:
 
-- **Call to Action Heading:** ____________________
+- **Call to Action Heading:** Let's Create Something Together
   - *Currently: "Interested in My Work?"*
   - *Example alternatives: Let's Work Together, Start a Conversation, Commission a Piece*
 
 - **Call to Action Description:**
   - *Currently: "Whether you're interested in purchasing a piece, commissioning custom artwork, or simply want to learn more about my artistic process, I'd love to hear from you."*
   ```
-  _______________________________________________
-  _______________________________________________
+  Whether you're looking to commission a custom piece, join a workshop, or simply want to chat about craft over coffee—I'd love to connect. The best creations come from collaboration.
   ```
 
 ---
 
 ## 12. COPYRIGHT YEAR
 
-- **Copyright Year:** ____________________
+- **Copyright Year:** 2026
   - *Currently: 2024*
   - *Appears in the footer*
 
@@ -414,16 +442,16 @@ At the bottom of the About page, there's a section asking visitors to take actio
 
 Before submitting, please ensure you have:
 
-- [ ] Filled out all artist information sections
-- [ ] Provided contact details (email, phone, location)
-- [ ] Added all social media links
-- [ ] Written your bio and artist statements
-- [ ] Listed all artworks with complete details
-- [ ] Included information about exhibitions (if applicable)
-- [ ] Listed any awards or recognition (if applicable)
+- [x] Filled out all artist information sections
+- [x] Provided contact details (email, phone, location)
+- [x] Added all social media links
+- [x] Written your bio and artist statements
+- [x] Listed all artworks with complete details
+- [x] Included information about exhibitions (if applicable)
+- [x] Listed any awards or recognition (if applicable)
 - [ ] Provided high-quality image files or indicated where they will be sent
-- [ ] Reviewed all text for spelling and grammar
-- [ ] Confirmed all information is accurate and up-to-date
+- [x] Reviewed all text for spelling and grammar
+- [x] Confirmed all information is accurate and up-to-date
 
 ---
 
@@ -459,9 +487,12 @@ YourName_Portfolio_Images/
   ├── artist-portrait.jpg
   ├── logo.png
   └── artworks/
-      ├── artwork-1-ethereal-landscapes.jpg
-      ├── artwork-2-urban-reflections.jpg
-      ├── artwork-3-abstract-emotions.jpg
+      ├── artwork-1-bayou-sunrise-pendant.jpg
+      ├── artwork-2-french-quarter-vessel.jpg
+      ├── artwork-3-crescent-city-journal.jpg
+      ├── artwork-4-jazz-magnolias.jpg
+      ├── artwork-5-heirloom-table-runner.jpg
+      ├── artwork-6-garden-district-cuff.jpg
       └── ...
 ```
 

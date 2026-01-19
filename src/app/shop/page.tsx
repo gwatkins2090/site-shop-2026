@@ -94,8 +94,9 @@ const ShopPage = () => {
               Shop Artworks
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Discover and purchase original artworks. Each piece is carefully crafted and ready to 
-              enhance your space with unique artistic expression.
+              Every piece in the shop is handmade in my New Orleans studio—no mass production,
+              no shortcuts. When you purchase original work, you&apos;re bringing home something
+              with a story, made by hands that care about craft.
             </p>
           </motion.div>
         </div>

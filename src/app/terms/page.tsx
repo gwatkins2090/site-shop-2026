@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Jennifer Watkins Art",
-  description: "Purchase terms, payment, returns, authenticity guarantees, limitations of liability, and dispute resolution for art sales.",
+  title: "Terms of Service | Jennifer Watkins - Mixed Media Artist",
+  description: "Purchase terms, payment, returns, authenticity guarantees, limitations of liability, and dispute resolution for art sales from The Conchetta Studio.",
 };
 
 export default function TermsPage() {

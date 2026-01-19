@@ -20,7 +20,7 @@ export default function Home() {
         <GalleryGrid
           artworks={featuredArtworks}
           title="Featured Works"
-          subtitle="A curated selection of recent pieces showcasing diverse techniques and themes"
+          subtitle="A curated selection of handcrafted pieces in enamel, ceramics, leather, paint, and fiber"
         />
       </Suspense>
 

@@ -77,8 +77,9 @@ const PortfolioPage = () => {
               Portfolio
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Explore a comprehensive collection of artworks spanning various mediums and themes, 
-              each piece representing a unique exploration of color, form, and emotion.
+              From the kiln to the canvas, explore a collection of handcrafted works in enamel,
+              ceramics, leather, paint, and fiber. Each piece is made with intention, honoring
+              traditional techniques while embracing contemporary design.
             </p>
           </motion.div>
         </div>

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shipping | Jennifer Watkins Art",
-  description: "Shipping methods, delivery timeframes, fine art packaging, international policies, insurance and tracking for artwork purchases.",
+  title: "Shipping | Jennifer Watkins - Mixed Media Artist",
+  description: "Shipping methods, delivery timeframes, fine art packaging, international policies, insurance and tracking for artwork purchases from The Conchetta Studio.",
 };
 
 export default function ShippingPage() {

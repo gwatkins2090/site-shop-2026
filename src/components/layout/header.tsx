@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -20,7 +21,13 @@ import { CartDrawer } from '@/components/shop/cart-drawer';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const isMobile = useMobile();
+
+  // Wait for client-side mount before rendering portal
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const navigationItems = [
     { href: '/', label: 'Home', icon: null },
@@ -116,71 +123,71 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      <AnimatePresence>
-        {isMenuOpen && isMobile && (
-          <motion.div
-            initial="closed"
-            animate="open"
-            exit="closed"
-            variants={menuVariants}
-            className="fixed inset-y-0 right-0 z-[99999] w-full max-w-sm bg-background text-foreground border-l shadow-lg md:hidden relative"
-          >
-            {/* Solid background layer to guarantee full opacity */}
-            <div className="pointer-events-none absolute inset-0 bg-background z-0" aria-hidden="true" />
-            <div className="relative z-10 flex flex-col h-full">
-              {/* Mobile Menu Header */}
-              <div className="flex items-center justify-between p-4 border-b">
-                <span className="font-serif text-lg font-semibold">Menu</span>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  <X className="h-5 w-5" />
-                </Button>
-              </div>
+      {/* Mobile Menu - rendered via portal to escape header's stacking context */}
+      {mounted && createPortal(
+        <AnimatePresence>
+          {isMenuOpen && isMobile && (
+            <>
+              {/* Overlay */}
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="fixed inset-0 z-[9999] bg-black/50 backdrop-blur-sm md:hidden"
+                onClick={() => setIsMenuOpen(false)}
+              />
 
-              {/* Mobile Navigation */}
-              <nav className="flex-1 px-4 py-6">
-                <div className="space-y-4">
-                  {navigationItems.map((item, index) => (
-                    <motion.div
-                      key={item.href}
-                      custom={index}
-                      variants={itemVariants}
-                      initial="closed"
-                      animate="open"
+              {/* Menu Panel */}
+              <motion.div
+                initial="closed"
+                animate="open"
+                exit="closed"
+                variants={menuVariants}
+                className="fixed inset-y-0 right-0 z-[9999] w-full max-w-sm bg-background text-foreground border-l shadow-xl md:hidden"
+              >
+                <div className="flex flex-col h-full">
+                  {/* Mobile Menu Header */}
+                  <div className="flex items-center justify-between p-4 border-b">
+                    <span className="font-serif text-lg font-semibold">Menu</span>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => setIsMenuOpen(false)}
                     >
-                      <Link
-                        href={item.href}
-                        className="flex items-center gap-3 px-3 py-2 text-lg font-medium rounded-lg transition-colors hover:bg-muted hover:text-slate-blue"
-                        onClick={() => setIsMenuOpen(false)}
-                      >
-                        {item.icon && <item.icon className="h-5 w-5" />}
-                        {item.label}
-                      </Link>
-                    </motion.div>
-                  ))}
-                </div>
-              </nav>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+                      <X className="h-5 w-5" />
+                    </Button>
+                  </div>
 
-      {/* Mobile Menu Overlay */}
-      <AnimatePresence>
-        {isMenuOpen && isMobile && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[9998] bg-off-black backdrop-blur-md md:hidden"
-            onClick={() => setIsMenuOpen(false)}
-          />
-        )}
-      </AnimatePresence>
+                  {/* Mobile Navigation */}
+                  <nav className="flex-1 px-4 py-6">
+                    <div className="space-y-4">
+                      {navigationItems.map((item, index) => (
+                        <motion.div
+                          key={item.href}
+                          custom={index}
+                          variants={itemVariants}
+                          initial="closed"
+                          animate="open"
+                        >
+                          <Link
+                            href={item.href}
+                            className="flex items-center gap-3 px-3 py-2 text-lg font-medium rounded-lg transition-colors hover:bg-muted hover:text-slate-blue"
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {item.icon && <item.icon className="h-5 w-5" />}
+                            {item.label}
+                          </Link>
+                        </motion.div>
+                      ))}
+                    </div>
+                  </nav>
+                </div>
+              </motion.div>
+            </>
+          )}
+        </AnimatePresence>,
+        document.body
+      )}
     </header>
   );
 };

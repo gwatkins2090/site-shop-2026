@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -11,46 +12,35 @@ import { formatPrice, DEFAULT_BLUR_DATA_URL } from '@/lib/utils';
 
 export function CartDrawer() {
   const [isOpen, setIsOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const { items, removeFromCart, getCartTotal, getCartCount } = useCart();
   const cartCount = getCartCount();
 
-  return (
-    <>
-      {/* Cart Button */}
-      <Button
-        variant="ghost"
-        size="icon"
-        className="relative"
-        onClick={() => setIsOpen(true)}
-      >
-        <ShoppingBag className="h-5 w-5" />
-        {cartCount > 0 && (
-          <span className="absolute -top-1 -right-1 bg-gallery-gold text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
-            {cartCount}
-          </span>
-        )}
-      </Button>
+  // Wait for client-side mount before rendering portal
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
-      {/* Drawer Overlay */}
-      <AnimatePresence>
-        {isOpen && (
-          <>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black/50 z-50"
-              onClick={() => setIsOpen(false)}
-            />
+  const drawerContent = (
+    <AnimatePresence>
+      {isOpen && (
+        <>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black/50 z-[9999]"
+            onClick={() => setIsOpen(false)}
+          />
 
-            {/* Drawer */}
-            <motion.div
-              initial={{ x: '100%' }}
-              animate={{ x: 0 }}
-              exit={{ x: '100%' }}
-              transition={{ type: 'spring', damping: 30, stiffness: 300 }}
-              className="fixed right-0 top-0 h-full w-full max-w-md bg-background shadow-xl z-50 flex flex-col"
-            >
+          {/* Drawer */}
+          <motion.div
+            initial={{ x: '100%' }}
+            animate={{ x: 0 }}
+            exit={{ x: '100%' }}
+            transition={{ type: 'spring', damping: 30, stiffness: 300 }}
+            className="fixed right-0 top-0 h-full w-full max-w-md bg-background shadow-xl z-[9999] flex flex-col"
+          >
               {/* Header */}
               <div className="flex items-center justify-between p-6 border-b">
                 <h2 className="text-xl font-serif font-semibold">
@@ -156,6 +146,27 @@ export function CartDrawer() {
           </>
         )}
       </AnimatePresence>
+    );
+
+  return (
+    <>
+      {/* Cart Button */}
+      <Button
+        variant="ghost"
+        size="icon"
+        className="relative"
+        onClick={() => setIsOpen(true)}
+      >
+        <ShoppingBag className="h-5 w-5" />
+        {cartCount > 0 && (
+          <span className="absolute -top-1 -right-1 bg-gallery-gold text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+            {cartCount}
+          </span>
+        )}
+      </Button>
+
+      {/* Render drawer via portal to escape header's stacking context */}
+      {mounted && createPortal(drawerContent, document.body)}
     </>
   );
 }
