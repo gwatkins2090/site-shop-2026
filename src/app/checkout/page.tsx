@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -12,8 +11,7 @@ import { useCart } from '@/contexts/cart-context';
 import { formatPrice, DEFAULT_BLUR_DATA_URL } from '@/lib/utils';
 
 export default function CheckoutPage() {
-  const router = useRouter();
-  const { items, getCartTotal, clearCart } = useCart();
+  const { items, getCartTotal } = useCart();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -45,9 +43,10 @@ export default function CheckoutPage() {
       } else {
         throw new Error('No checkout URL received');
       }
-    } catch (err: any) {
+    } catch (err) {
       console.error('Checkout error:', err);
-      setError(err.message || 'Something went wrong. Please try again.');
+      const message = err instanceof Error ? err.message : 'Something went wrong. Please try again.';
+      setError(message);
       setIsLoading(false);
     }
   };

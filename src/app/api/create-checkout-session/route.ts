@@ -1,16 +1,17 @@
 import { NextRequest, NextResponse } from 'next/server';
 import Stripe from 'stripe';
+import { CartItem } from '@/types';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2024-12-18.acacia',
+  apiVersion: '2025-12-15.clover',
 });
 
 export async function POST(req: NextRequest) {
   try {
-    const { items } = await req.json();
+    const { items }: { items: CartItem[] } = await req.json();
 
     // Create line items for Stripe
-    const lineItems = items.map((item: any) => ({
+    const lineItems = items.map((item: CartItem) => ({
       price_data: {
         currency: 'usd',
         product_data: {
@@ -24,7 +25,7 @@ export async function POST(req: NextRequest) {
           ],
           metadata: {
             artworkId: item.artwork.id,
-            artist: item.artwork.artist || 'Artist',
+            artist: 'Jennifer Watkins',
           },
         },
         unit_amount: Math.round((item.artwork.price || 0) * 100), // Convert to cents
@@ -44,7 +45,7 @@ export async function POST(req: NextRequest) {
       },
       metadata: {
         orderItems: JSON.stringify(
-          items.map((item: any) => ({
+          items.map((item: CartItem) => ({
             id: item.artwork.id,
             title: item.artwork.title,
             price: item.artwork.price,
@@ -54,10 +55,11 @@ export async function POST(req: NextRequest) {
     });
 
     return NextResponse.json({ url: session.url });
-  } catch (error: any) {
+  } catch (error) {
     console.error('Stripe error:', error);
+    const message = error instanceof Error ? error.message : 'An unexpected error occurred';
     return NextResponse.json(
-      { error: error.message },
+      { error: message },
       { status: 500 }
     );
   }
