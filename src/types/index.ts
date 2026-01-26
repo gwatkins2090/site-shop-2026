@@ -17,6 +17,7 @@ export interface Artwork {
   available?: boolean;
   width: number;
   height: number;
+  size?: 'small' | 'medium' | 'large' | 'featured'; // Grid size for masonry layout
 }
 
 // Artist information
